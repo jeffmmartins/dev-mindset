@@ -3,6 +3,40 @@
     box-shadow: 0 4px 7px rgb(0, 0, 0, 0.25); /*horizontal, vertical, desfoque, cor*/
 }
 
-header nav.navbar {
+.link{
+    text-decoration: none;
+    color:  #ccc;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
 
+.link:hover{
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 80px;
+}
+
+.navBrand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    
+    list-style: none;
+    gap: 1rem;
 }
