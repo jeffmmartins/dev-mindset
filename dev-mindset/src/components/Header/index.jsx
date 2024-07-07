@@ -1,9 +1,10 @@
 import logoImg from "../../assets/img/logo.png" 
+import style from "../Header/header.module.css"
 
 const Header = () => {
   return (
     <div>
-      <header>
+      <header id={style.container}>
         <nav id="navbar">
           <div className="nav-brand">
             <img src={logoImg} alt="" />
