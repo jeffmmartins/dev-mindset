@@ -1,10 +1,12 @@
+import logoImg from "../../assets/img/logo.png" 
+
 const Header = () => {
   return (
     <div>
       <header>
         <nav id="navbar">
           <div className="nav-brand">
-            <img src="" alt="" />
+            <img src={logoImg} alt="" />
             <h1>Dev Mindset</h1>
           </div>
           <div>
