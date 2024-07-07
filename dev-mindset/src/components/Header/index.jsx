@@ -8,7 +8,7 @@ const Header = () => {
         <nav id={style.navbar}>
           <div className={style.navBrand}>
             <img src={logoImg} alt="logo" style={{width: '30px', height: '30px'}} />
-            <h1>Dev Mindset</h1>
+            <h1 className={style.title}>Dev Mindset</h1>
           </div>
           <div>
             <ul className={style.list}>

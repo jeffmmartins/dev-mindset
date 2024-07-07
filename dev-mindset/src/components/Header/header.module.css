@@ -3,6 +3,12 @@
     box-shadow: 0 4px 7px rgb(0, 0, 0, 0.25); /*horizontal, vertical, desfoque, cor*/
 }
 
+.title {
+    font-family: "Grenze", serif;
+    font-weight: 400px;
+    font-size: 2rem;
+}
+
 .link{
     text-decoration: none;
     color:  #ccc;
