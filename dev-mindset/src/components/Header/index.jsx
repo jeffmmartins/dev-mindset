@@ -1,7 +1,7 @@
 import logoImg from "../../assets/img/logo.png" 
 import style from "../Header/header.module.css"
 
-const Header = () => {
+export const Header = () => {
   return (
     <div>
       <header id={style.container}>
@@ -24,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+
