@@ -1,10 +1,11 @@
-import React from 'react'
+
 import imgData from '../../assets/img/logo.png'
+import style from '../Article/article.module.css'
 
 export const Article = () => {
   return (
     <div>
-      <article id='article'>
+      <article id={style.article}>
         <div>
             <img src={imgData} alt="foto noticias" style={{width: "100px", height: "50px"}}/>
         </div>
