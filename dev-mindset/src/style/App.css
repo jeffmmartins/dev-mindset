@@ -10,3 +10,8 @@ body {
 
     font-family: 'Roboto', sans-serif;
 }
+
+#article {
+    max-width: 1240px;
+    margin: 4rem auto; /* superior e inferior / laterais */
+}
