@@ -12,6 +12,10 @@ body {
 }
 
 #article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
     max-width: 1240px;
     margin: 4rem auto; /* superior e inferior / laterais */
 }

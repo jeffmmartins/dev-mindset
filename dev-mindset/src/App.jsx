@@ -8,6 +8,8 @@ function App() {
     <>
       <Header/>
       <section id="article">
+        <Article title= "Dicas de JS"/>
+        <Article title= "Dicas React"/>
         <Article/>
       </section> 
     </>
