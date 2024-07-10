@@ -11,7 +11,7 @@ function App() {
     async function loadnews(){
       const response = await axios.get('https://api.spaceflightnewsapi.net/v4/articles')
       const newsData = response.data.results;
-      console.log(newsData)
+      setNews(newsData)
     }
     loadnews()
   },[])
@@ -20,9 +20,9 @@ function App() {
     <>
       <Header/>
       <section id="article">
-        <Article title= "Dicas de JS"/>
-        <Article title= "Dicas React"/>
-        <Article title = "Dicas"/>
+        {news.map(() => {(
+          <Article title= "Dicas de JS"/>
+        )})}
       </section> 
     </>
   )
