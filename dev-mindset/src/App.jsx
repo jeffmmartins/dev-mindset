@@ -12,6 +12,7 @@ function App() {
       const response = await axios.get('https://api.spaceflightnewsapi.net/v4/articles')
       const newsData = response.data.results;
       setNews(newsData)
+      console.log(newsData)
     }
     loadnews()
   },[])
@@ -20,9 +21,14 @@ function App() {
     <>
       <Header/>
       <section id="article">
-        {news.map(() => {(
-          <Article title= "Dicas de JS"/>
-        )})}
+        {news.map((article) => (
+          <Article 
+          title= {article.title}
+          provider ={article.news_site}
+          description ={article.summary}
+          thumbmail ={article.image_url}
+          />
+        ))}
       </section> 
     </>
   )
