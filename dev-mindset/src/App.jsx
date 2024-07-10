@@ -23,6 +23,7 @@ function App() {
       <section id="article">
         {news.map((article) => (
           <Article 
+          key={article.id}
           title= {article.title}
           provider ={article.news_site}
           description ={article.summary}
